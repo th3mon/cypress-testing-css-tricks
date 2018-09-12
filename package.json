@@ -1,0 +1,20 @@
+{
+  "name": "cypress-testing-css-tricks",
+  "version": "1.0.0",
+  "description": "cypress-testing-css-tricks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3mon/cypress-testing-css-tricks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3mon/cypress-testing-css-tricks/issues"
+  },
+  "homepage": "https://github.com/th3mon/cypress-testing-css-tricks#readme"
+}
