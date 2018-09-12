@@ -17,7 +17,17 @@ describe('CSS-Tricks home page', () => {
     });
 
     it('has visible mobile menu toggle', () => {
-      cy.get('#mobile-menu-toggle').should('be.visible')
+      cy.get('#mobile-menu-toggle').should('be.visible');
+    });
+  });
+
+  describe('with a 1085x660 viewport', () => {
+    beforeEach(() => {
+      cy.viewport(1085, 660);
+    });
+
+    it('has visible mobile menu toggle', () => {
+      cy.get('#mobile-menu-toggle').should('be.visible');
     });
   });
 });
