@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/th3mon/cypress-testing-css-tricks/issues"
   },
-  "homepage": "https://github.com/th3mon/cypress-testing-css-tricks#readme"
+  "homepage": "https://github.com/th3mon/cypress-testing-css-tricks#readme",
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
 }
